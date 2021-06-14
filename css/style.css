@@ -709,6 +709,7 @@ body {
         height: 160px;
         padding: 0;
         margin-top: 70px;
+        margin-left: -2%;
         position: relative;
     }
     .caption-style-4  {
@@ -736,6 +737,7 @@ body {
     .caption-style-4 li .img4 {
         width: 25%;
         margin-top: 75px;
+        margin-right: 80px;
     }
     .caption-style-4 .blur, 
     .caption-style-4 .caption-text {display: none;}
