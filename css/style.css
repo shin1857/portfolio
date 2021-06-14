@@ -708,7 +708,6 @@ body {
     .po1, .po2, .po3 {
         height: 160px;
         padding: 0;
-        margin-left: 5%;
         margin-top: 70px;
         position: relative;
     }
