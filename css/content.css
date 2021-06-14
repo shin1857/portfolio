@@ -1,0 +1,114 @@
+/* content.css */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#content {
+    margin-left: 17px;
+    margin-right: 15px;
+}
+#content span {
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 10px;
+}
+#content h2 {
+    font-weight: 900; /* 더 굵었으면 함 */
+}
+#content h4 {
+    margin: 0;
+    padding: 2px;
+}
+#content .myeongjo {
+    font-family: 'Nanum Myeongjo', serif;
+    margin-left: 0;
+}
+#content .gothic {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-left: 0;
+}
+#content .amatic {
+    font-family: 'Amatic SC', cursive;
+    margin-left: 0;
+}
+#content .lato {
+    font-family: 'Lato', sans-serif;
+    margin-left: 0;
+}
+#content .black {
+    color: #31343c;
+    margin-left: 0;
+}
+#content .blue1 {
+    color: cornflowerblue;
+    margin-left: 0;
+}
+#content .blue2 {
+    color: #0047ab;
+    margin-left: 0;
+}
+#content .blue {
+    color: #357cbe;
+    font-weight: bold;
+    margin-left: 0;
+}
+#content .green {
+    color: #acbb4c;
+    font-weight: bold;
+    margin-left: 0;
+}
+#content .bold {
+    font-weight: 700;
+    margin-left: 0;
+}
+#content .medium {font-weight: 500;}
+#content .regular {
+    font-weight: 400;
+    margin-left: 0;
+}
+#content .light {font-weight: 300;}
+#content .thin {font-weight: 100;}
+#content .img {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 420px;
+    height: 400px;
+}
+#content .img img{
+    float: left;
+    width: 200px;
+    height: 400px;
+    padding: 5px;
+    padding-bottom: 20px;
+   
+} 
+#content .img1 img {
+    float: left;
+    padding: 5px;
+    /* padding-bottom: 20px; */
+    width: 190px;
+    height: 150px;
+}
+#content .img1 img:first-child {
+    width: 190px;
+    height: 470px;
+    padding-bottom: 20px;
+}
+
+/* mobile */
+@media screen and (max-width : 768px) {
+    body {
+        width: 90%;
+    }
+    #content img {
+        width: 90%;
+    }
+    #content {
+        width: 90%;
+    }
+    #content h2 {font-size: 20px;}
+    #content h4 {font-size: 15px;}
+    #content span {
+        font-size: 12px;
+    }
+}
