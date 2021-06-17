@@ -512,7 +512,6 @@ body {
         width: 100%;
         height: 100%;
         background: cornflowerblue;
-        outline: 3px solid pink;
     }
     #home_title {
         display: flex;
@@ -696,7 +695,6 @@ body {
         height: 100vh;
         background-color: cornflowerblue;
         position: relative;
-        outline: 3px solid orange;
     }
     .po1, .po2, .po3 {
         position: relative;
@@ -705,7 +703,6 @@ body {
         top: 15%;
         left: 50%;
         transform: translate(-50%,-50%);
-        outline: 2px solid red;
         margin-left: 0;
     }
     .caption-style-4  {
