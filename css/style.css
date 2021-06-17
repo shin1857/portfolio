@@ -17,6 +17,7 @@ body {
     width: 1200px;
     height: 100vh;
     max-width: 1920px;
+    background: darkblue;
 }
 #body, #body1{
     position: relative;
