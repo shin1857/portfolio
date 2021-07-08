@@ -82,6 +82,13 @@ body {
     padding-bottom: 20px;
    
 } 
+#content .img1 {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 420px;
+    height: 400px;
+}
 #content .img1 img {
     float: left;
     padding: 5px;
@@ -93,6 +100,7 @@ body {
     width: 190px;
     height: 470px;
     padding-bottom: 20px;
+    float: left;
 }
 
 /* mobile */
